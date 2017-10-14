@@ -10,6 +10,8 @@ def index(request):
 
 def events(request):
 	print '**events**' * 100
+	return render(request, 'home/events.html')
 
 def magic(request):
 	print '**magic**' * 100
+	return render(request, 'home/magic.html')

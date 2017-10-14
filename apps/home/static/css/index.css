@@ -1,0 +1,11 @@
+nav ul {
+	border: 5px groove #00AA00FF
+}
+
+nav ul li {
+	display: inline;
+	font-size: 30px;
+	font-weight: bolder;
+	margin: 10px;
+}
+

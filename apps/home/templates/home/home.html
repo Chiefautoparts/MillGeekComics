@@ -2,6 +2,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Mill Geek Comics</title>
+	{% load static %}
+	<link rel="stylesheet" href="{% static "css/index.css" %}">
 </head>
 <body>
 	<article>
@@ -14,14 +16,14 @@
 				<li><a href="{% url "home:events" %}">Calendar</a></li>
 				<li><a href="{% url "home:magic" %}">Magic Events</a></li>
 				<li><a href="#">Blog</a></li>
-				<li><a href="{% url "orders:checkout" %}">Online Shop</a></li>
+				<li><a href="{% url "order:checkout" %}">Online Shop</a></li>
 			</ul>
 		</nav>
 	</article>
 	<article>
 		<section class="center">
-			<p id="subcenter">****Hot new Items****</p>
-			<img src="http://www.stevensegallery.com/284/196" alt="">
+				<p id="subcenter">****Hot new Items****</p>
+				<img src="http://www.stevensegallery.com/284/196" alt="">
 		</section>
 		<section class="right">
 			<p id="subright">***upcoming Events*****</p>
@@ -34,6 +36,9 @@
 	</article>
 	<article>
 		<table>
+			<thead>
+				
+			</thead>
 			<th>
 				<td>Information</td>
 				<td>Location</td>
