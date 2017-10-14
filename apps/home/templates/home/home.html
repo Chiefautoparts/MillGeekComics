@@ -14,19 +14,22 @@
 				<li><a href="{% url "home:events" %}">Calendar</a></li>
 				<li><a href="{% url "home:magic" %}">Magic Events</a></li>
 				<li><a href="#">Blog</a></li>
-				<li><a href="#">Online Shop</a></li>
+				<li><a href="{% url "orders:checkout" %}">Online Shop</a></li>
 			</ul>
 		</nav>
 	</article>
 	<article>
-		<section>
-			<p>****Hot new Items****</p>
+		<section class="center">
+			<p id="subcenter">****Hot new Items****</p>
+			<img src="http://www.stevensegallery.com/284/196" alt="">
 		</section>
-		<section>
-			<p>***upcoming Events*****</p>
+		<section class="right">
+			<p id="subright">***upcoming Events*****</p>
+			<img src="http://www.stevensegallery.com/g/200/300" alt="">
 		</section>
-		<section>
-			<p>****Fantastic News Item*****</p>
+		<section class="left">
+			<p id="subleft">****Fantastic News Item*****</p>
+			<img src="http://www.stevensegallery.com/200/300" alt="">
 		</section>
 	</article>
 	<article>
