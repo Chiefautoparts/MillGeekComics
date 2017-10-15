@@ -6,6 +6,22 @@
 	<link rel="stylesheet" href="{% static 'css/about.css' %}">
 </head>
 <body>
+	<nav>
+		<ul class="nav-left">
+			<li><a href="{% url "home:index" %}">Geek Home</a></li>
+			<li><a href="{% url "about:index" %}">Us Geek</a></li>
+			<li><a href="{% url "home:magic" %}">Magic Events</a></li>
+			<li><a href="{% url "#" %}">Cast Us</a></li>
+			<li><a href="{% url "home:events" %}">Calendar</a></li>
+			<li><p>Online Shop</p>
+				<ul>
+					<li><a href="{% url "cart:cart" %}">Cart</a></li>
+					<li><a href="{% url "order:index" %}">Order</a></li>
+					<li><a href="{% url "catalog:product_list" %}"></a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
 	<div class="fade"></div>
 	<section class="geekWars">
 		<div class="crawl">

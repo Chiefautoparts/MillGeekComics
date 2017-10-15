@@ -20,5 +20,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('apps.home.urls', namespace="home")),
     url(r'^about/', include('apps.about.urls', namespace="about")),
-    url(r'order/', include('apps.order.urls', namespace='order'))
+    url(r'^order/', include('apps.order.urls', namespace='order')),
+    url(r'^catalog/', include('apps.catalog.urls', namespace='catalog'))
 ]
