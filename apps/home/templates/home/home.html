@@ -3,7 +3,7 @@
 	<meta charset="UTF-8">
 	<title>Mill Geek Comics</title>
 	{% load static %}
-	<link rel="stylesheet" href="{% static "css/index.css" %}">
+	<link rel="stylesheet" href="{% static "css/geek.css" %}">
 </head>
 <body>
 	<article>
@@ -15,7 +15,6 @@
 				<li><a href="{% url "about:index" %}">Us Geek</a></li>
 				<li><a href="{% url "home:events" %}">Calendar</a></li>
 				<li><a href="{% url "home:magic" %}">Magic Events</a></li>
-				<li><a href="#">Blog</a></li>
 				<li><a href="{% url "order:checkout" %}">Online Shop</a></li>
 			</ul>
 		</nav>
