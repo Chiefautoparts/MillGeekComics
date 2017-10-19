@@ -11,7 +11,7 @@ class Order(models.Model):
 	email = models.EmailField()
 	address = models.CharField(max_length=250)
 	city = models.CharField(max_length=100)
-	postal_code = models.IntegerField(max_length=20)
+	postal_code = models.IntegerField()
 	created = models.DateTimeField(auto_now_add=True)
 	updated = models.DateTimeField(auto_now=True)
 	paid = models.BooleanField(default=False)
