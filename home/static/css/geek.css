@@ -1,3 +1,8 @@
+html{
+	background: url('http://www.millgeekcomics.com/wp-content/uploads/2017/09/en_300x250.jpg') no-repeat center center fixed;
+	background-size: cover;	
+}
+
 nav ul {
 	border: 5px groove #00AA00FF
 }
